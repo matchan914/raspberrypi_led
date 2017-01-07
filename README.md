@@ -1,13 +1,13 @@
 # LEDの点滅
 0.05秒間隔の点滅を30回繰り返します
 
-## コマンド
+# コマンド
 ```
 $ make
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
-$ chmod +x led.bash
-$ sudo ./led.bash
+$ chmod +x flash.bash
+$ sudo ./flash.bash
 ```
 
 # 動画URL
